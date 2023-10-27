@@ -2,8 +2,19 @@
   animation: crown-up 1.5s ease-in 0.8s forwards;
 }
 
+.logo {
+  animation: logo-showcase 1.5s ease-in 0.8s forwards;
+}
+
 @keyframes crown-up {
   to {
     transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes logo-showcase {
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 100;
   }
 }

@@ -24,7 +24,7 @@ const Hero = () => {
       <div className='hero-content text-center text-neutral-content'>
         <div className='max-w-md'>
           <Image
-            className='relative w-64 sm:w-auto top-10'
+            className={`relative w-64 sm:w-auto top-10 translate-x-60 transform-gpu opacity-0 ${styles.logo}`}
             src='/rgc-icon.svg'
             alt='Regent Gate Capital Logo'
             width={500}
