@@ -72,25 +72,28 @@ const Navbar = () => {
       </div>
       <div
         id='mobileMenu'
-        className='absolute z-10 hidden top-16 container px-2 sm:px-20 mx-auto'
+        onClick={handleMenuClick}
+        className='absolute z-10 hidden pt-20 inset-0 bg-brand-royal-blue top-16'
       >
-        <ul className='px-5'>
-          <li className='text-xs mb-2 text-white'>
-            <a href='/#strategy' className='hover:bg-transparent'>
-              Strategy
-            </a>
-          </li>
-          <li className='text-xs mb-2 text-white'>
-            <a href='/#contact' className='hover:bg-transparent'>
-              Contact
-            </a>
-          </li>
-          <li className='text-xs mb-2 text-white'>
-            <Link href={"/disclaimer"} className='hover:bg-transparent'>
-              Disclaimer
-            </Link>
-          </li>
-        </ul>
+        <div className='container px-2 sm:px-20 mx-auto'>
+          <ul className='px-5'>
+            <li className='text-xs py-5 text-white text-center'>
+              <a href='/#strategy' className='hover:bg-transparent'>
+                Strategy
+              </a>
+            </li>
+            <li className='text-xs py-5 text-white text-center'>
+              <a href='/#contact' className='hover:bg-transparent'>
+                Contact
+              </a>
+            </li>
+            <li className='text-xs py-5 text-white text-center'>
+              <Link href={"/disclaimer"} className='hover:bg-transparent'>
+                Disclaimer
+              </Link>
+            </li>
+          </ul>
+        </div>
       </div>
     </>
   );

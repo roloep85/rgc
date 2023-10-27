@@ -24,11 +24,8 @@ const DisclaimerPage = () => {
           </div>
         </div>
       </div>
-      <section
-        ref={ref}
-        className='container px-5 sm:px-20 mx-auto py-20 sm:py-40'
-      >
-        <div className='max-w-lg mx-auto text-justify'>
+      <section ref={ref} className='bg-brand-royal-blue'>
+        <div className='container px-5 mx-auto py-20 sm:py-40 max-w-xl text-justify'>
           <p
             className={`mb-5 transition-transform duration-700 transform-gpu ${
               inView ? "translate-y-0" : "translate-y-96"

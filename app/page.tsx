@@ -14,7 +14,9 @@ export default function Home() {
       <Hero />
       <div className='flex h-full flex-row relative -top-16'>
         <div className='grid flex-grow h-32 place-items-center'></div>
-        <div className='divider divider-horizontal before:bg-opacity-100 after:bg-opacity-100'></div>
+        <div className='divider divider-horizontal relative before:bg-opacity-100 after:bg-opacity-100'>
+          {/* <div className='bg-white absolute h-6 w-1'></div> */}
+        </div>
         <div className='grid flex-grow h-32 place-items-center'></div>
       </div>
       <section

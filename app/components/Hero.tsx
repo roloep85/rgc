@@ -10,7 +10,7 @@ const Hero = () => {
         autoPlay={true}
         loop
         muted
-        className='absolute -z-10 inset-x-0 max-w-none portrait:h-full xl:max-w-full xl:h-auto 2xl:w-full'
+        className='absolute -z-10 inset-x-0 max-w-none portrait:h-full xl:h-auto'
       ></video>
       <Image
         className={`relative opacity-70 translate-y-[100vh] transform-gpu ${styles.crown}`}
