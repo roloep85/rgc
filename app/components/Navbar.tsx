@@ -72,7 +72,7 @@ const Navbar = () => {
       </div>
       <div
         id='mobileMenu'
-        className='absolute z-10 hidden top-20 container px-2 sm:px-20 mx-auto'
+        className='absolute z-10 hidden top-16 container px-2 sm:px-20 mx-auto'
       >
         <ul className='px-5'>
           <li className='text-xs mb-2 text-white'>
