@@ -10,10 +10,10 @@ const Hero = () => {
         autoPlay={true}
         loop
         muted
-        className='absolute -z-10 inset-x-0 max-w-none xl:max-w-full 2xl:w-full h-full xl:h-auto'
+        className='absolute -z-10 inset-x-0 max-w-none portrait:h-full xl:max-w-full xl:h-auto 2xl:w-full'
       ></video>
       <Image
-        className={`relative opacity-70 top-[100vh] ${styles.crown}`}
+        className={`relative opacity-70 translate-y-[100vh] transform-gpu ${styles.crown}`}
         src='/rgc-crown.svg'
         alt='Regent Gate Capital Crown'
         width={550}
@@ -24,7 +24,7 @@ const Hero = () => {
       <div className='hero-content text-center text-neutral-content'>
         <div className='max-w-md'>
           <Image
-            className='relative'
+            className='relative w-64 sm:w-auto top-10'
             src='/rgc-icon.svg'
             alt='Regent Gate Capital Logo'
             width={500}

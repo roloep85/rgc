@@ -12,7 +12,7 @@ export default function Home() {
       </div>
       <div
         id='strategy'
-        className='hero relative py-40 -mt-32 overflow-hidden bg-strategy-section'
+        className='hero relative -z-10 py-40 -mt-32 overflow-hidden bg-strategy-section'
       >
         {/* <div className='hero-overlay bg-brand-royal-blue bg-opacity-80'></div> */}
         <div className='max-w-[30rem] mx-auto text-center text-white'>

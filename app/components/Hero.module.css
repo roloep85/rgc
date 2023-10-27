@@ -1,9 +1,9 @@
 .crown {
-  animation: crown-up 1.5s ease-in 0.5s forwards;
+  animation: crown-up 1.5s ease-in 0.8s forwards;
 }
 
 @keyframes crown-up {
   to {
-    top: 0;
+    transform: translate3d(0, 0, 0);
   }
 }
