@@ -1,0 +1,9 @@
+.crown {
+  animation: crown-up 1.5s ease-in 0.5s forwards;
+}
+
+@keyframes crown-up {
+  to {
+    top: 0;
+  }
+}

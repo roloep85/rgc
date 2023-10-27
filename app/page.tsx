@@ -1,36 +1,19 @@
 import Image from "next/image";
+import Hero from "./components/Hero";
 
 export default function Home() {
   return (
     <main>
-      <div className='hero relative h-screen overflow-hidden'>
-        <video
-          src='/rgc-header-video.mp4'
-          autoPlay={true}
-          loop
-          muted
-          className='absolute -z-10 inset-x-0'
-        ></video>
-        <div className='hero-overlay bg-brand-royal-blue bg-opacity-60'></div>
-        <div className='hero-content text-center text-neutral-content'>
-          <div className='max-w-md'>
-            <Image
-              className='relative'
-              src='/rgc-icon.svg'
-              alt='Regent Gate Capital Logo'
-              width={500}
-              height={72}
-              priority
-            />
-          </div>
-        </div>
-      </div>
+      <Hero />
       <div className='flex h-full flex-row relative -top-16'>
         <div className='grid flex-grow h-32 place-items-center'></div>
         <div className='divider divider-horizontal before:bg-opacity-100 after:bg-opacity-100'></div>
         <div className='grid flex-grow h-32 place-items-center'></div>
       </div>
-      <div id='strategy' className='hero relative py-40 -mt-32 overflow-hidden'>
+      <div
+        id='strategy'
+        className='hero relative py-40 -mt-32 overflow-hidden bg-strategy-section'
+      >
         {/* <div className='hero-overlay bg-brand-royal-blue bg-opacity-80'></div> */}
         <div className='max-w-[30rem] mx-auto text-center text-white'>
           <h3 className='text-3xl mb-10 text-brand-primary'>Strategy</h3>
