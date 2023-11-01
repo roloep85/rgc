@@ -20,7 +20,7 @@ const DisclaimerPage = () => {
       >
         <div className='hero-content text-center text-neutral-content py-20'>
           <div className='max-w-md'>
-            <h1 className='mb-5 text-5xl font-bold'>Disclaimer</h1>
+            <h1 className='mb-5 text-5xl text-white font-bold'>Disclaimer</h1>
           </div>
         </div>
       </div>
